@@ -1,0 +1,100 @@
+/*container开始*/
+.container .m-title h1{
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	margin:20px ;
+}
+.container .des{
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+.container .des  #album{
+	margin-right: 20px;
+}
+.container .des  #album,
+.container .des  #singer{
+	color: #32E01D;
+}
+
+/*footer开始*/
+.footer{
+	width: 100%;
+	background:rgba(200,200,200,.6);
+	height: 65px;
+	line-height: 65px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer .cot{
+	width: 60%;
+	margin:0 auto;
+}
+.nopadding{
+	padding:0;
+}
+.footer .play-menu a{
+	cursor: pointer;
+}
+.footer .play-menu a i{
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	background: url(../img/anniu.png) center center no-repeat;
+	-webkit-background-size: 400px 400px;
+	background-size: 400px 400px;
+}
+.footer .play-menu .pre{
+	background-position: -136px -174px;
+}
+.footer .play-menu .next{
+	background-position: 0px -174px;
+}
+.footer .rollimg{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left:30px;
+    margin-left: 30px;
+}
+.footer .rollimg img{
+	width: 100%;
+	height: 100%;
+	border:2px solid #fff
+}
+.footer .allplay{
+	/*border: 1px solid red;*/
+}
+.footer .audiostyle{
+	width: 55px;
+	height: 55px;
+	border-radius: 100%;
+	background-color: #000;
+	display: inline-block;
+	position: relative;
+	top: 7px;
+    left: 54px;
+}
+.footer #player{
+	margin-bottom: 5px;
+
+}
+
+.footer .loop{
+	width: 55px;
+	height: 67px;
+	line-height: 67px;
+	background: url(../img/loop.png) center center no-repeat;
+	cursor: pointer;
+}
+.loop1{
+	background: url(../img/loop1.png) center center no-repeat!important;
+}
+.lyrcList li{
+	height: 30px;
+	line-height: 30px;
+	letter-spacing:3px;
+	font-size: 16px;
+}

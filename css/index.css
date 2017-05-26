@@ -1,0 +1,57 @@
+.songList .songs{
+	width: 60%;
+	margin: 10px auto;
+}
+
+.songsUl li{
+	font-size: 22px;
+	width: 100%;
+	height: 80px;
+	line-height: 40px;
+	color: #ddd;
+	cursor: pointer;
+}
+.songsUl li:hover,
+.songsUl li .singername:hover
+{
+	color: #32E01D!important;
+}
+.songsUl li .singername{
+	font-size: 16px;
+	color: #ccc;
+}
+.songsUl li .songImg{
+	display: inline-block;
+	width: 70px;
+	height:70px;
+}
+.songsUl li img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #fff;
+	padding: 3px;
+	cursor: pointer;
+}
+.songsUl li i{
+	color: #fe2c62;
+	margin-right: 40px;
+}
+.songsUl li .index{
+	color: #fe2c62;
+	margin-right: 20px;
+	margin-left: 50px;
+	font-size: 20px; 
+}
+.singername li a{
+	display: inline-block;
+	width: 120px;
+	height: 130px;
+	margin: 10px 0;
+}
+.singername li a img{
+	width: 100%;
+	height: 100%;
+}
+.thumbnail {
+	background-color:transparent!important;
+}

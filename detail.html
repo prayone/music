@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/template-web.js"></script>
+	<script type="text/javascript" src="js/player.js"></script>
+</head>
+<body>
+	<div class="background"></div>
+	<header id="header">
+		<div class="navbar navbar-default navbar-fixed-top" id="daohang">
+		    <div class="container">
+				<div class="container">
+				<!-- 导航条头部 -->
+					<div class="navbar-header">
+					    <!-- 1.logo 和面包-->
+						<a href="#" class="navbar-brand">
+							<div class="logo" id="logosite">
+								<img src="./img/logo.png" alt="">
+							</div>
+						</a>
+				        <!-- 2.面包按钮 -->
+						<button class="navbar-toggle btn-brand" type="button" data-toggle="collapse" data-target="#mycollapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+				<!-- 导航条折叠菜单 -->
+					<div class="collapse navbar-collapse" id="mycollapse">
+						<ul class="nav navbar-nav ">
+							<li><a href="index.html" class="site">热歌榜</a></li>
+							<li><a href="hotsinger" class="site">热门歌手</a></li>
+						    
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>	
+	<div class="container lyric-bg">
+		<div class="cont"></div>
+		<div class="lyric">
+			<div class="m-title">
+				<h1 class="text-center" id="songtitle"></h1>
+			</div>
+			<div class="des text-center">
+				<span>专辑：</span>
+				<span id="album"></span>
+				<span>歌手：</span>
+				<span id="singer"></span>
+			</div>
+			<div class="lyrics" id="showInfo">
+				<ul class="lyrcList text-center">
+					
+				</ul>
+			</div>
+		</div> 
+	</div>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row cot">
+				<div class="col-md-1 hidden-sm hidden-xs nopadding">
+					<div class="rollimg pull-right">
+						<img class="picUrl roll img-circle" src="./img/cover.jpg">
+					</div>
+				</div>
+				<div class="col-md-9 hidden-xs nopadding">
+					<div class="allplay">
+						<div class="audiostyle">
+						</div>
+						<!-- http://p2.music.126.net/S6qcvyfni0d0zJoSRWZptA==/18729081069358712.mp3 -->
+						<audio id="player" src="" controls="controls" preload="reload">
+						</audio>
+					</div>
+				</div>
+				<div class="col-md-1 hidden-sm hidden-xs nopadding">
+					<div class="loop pull-left">
+						<a href="javascript:" title="单曲循环" class="loop-menu" id="loop"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</footer>
+</body>
+</html>
+
